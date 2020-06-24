@@ -1,3 +1,14 @@
+# Deliveroo avec React
+
+Partie frontend de création d'une réplique de deliveroo avec React (voir deliveroo-backend). Le backend est hébergé sur Heroku.
+Le front comprend un appel à une base de données pour la liste des menus et une gestion du pannier du consommateur avec l'ajout et le retrait de menus.
+
+## Capture d'écran
+
+<div >
+    <img src="./assets/capture-deliveroo.png" width="800px"> </img> 
+</div>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,4 +77,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
 # deliveroo-frontend
