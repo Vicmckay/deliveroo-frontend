@@ -6,7 +6,7 @@ Le front comprend un appel à une base de données pour la liste des menus et un
 ## Capture d'écran
 
 <div >
-    <img src="./assets/capture-deliveroo.png" width="800px"> </img> 
+    <img src="./public/assets/capture-deliveroo.png" width="800px"> </img> 
 </div>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
