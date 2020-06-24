@@ -1,38 +1,190 @@
-.App {
-  text-align: center;
+header {
+  height: 60px;
+  border-bottom: solid #eaebeb 1px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header-white {
+  background-color: white;
+  width: 1200px;
+  margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.wrapper {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.back-grey {
+  background-color: #f4f5f5;
+}
+
+.container {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header img {
+  height: 70px;
+}
+
+main {
+  display: flex;
+}
+
+main img {
+  width: 350px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+main h1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.wrapper p {
+  color: #868a8a;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.restaurant-menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.basket {
+  width: 350px;
+}
+
+.meals {
+  flex: 1;
+}
+
+.menuItem {
+  width: 370px;
+  height: 160px;
+  background-color: white;
+  display: flex;
+  padding-left: 10px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.menuDescription {
+  text-align: left;
+  flex: 1;
+}
+
+.menuDescription p {
+  color: #868a8a;
+  margin-bottom: 20px;
+}
+
+.menuDescription span {
+  color: #868a8a;
+  margin-right: 20px;
+}
+
+.menuButton {
+  border: none;
+}
+
+.wrapper-menu {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 5px;
+}
+
+.foodPicture img {
+  border-radius: 5px;
+  padding-top: 20px;
+  padding-right: 10px;
+  object-fit: cover;
+  height: 128px;
+  width: 128px;
+}
+
+.basket {
+  width: 350px;
+  height: 300px;
+  background-color: #ffffff;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.basket-header {
+  height: 50px;
+  width: 330px;
+  background-color: #00ccbc;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 0%;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.basket-header h3 {
+  text-align: center;
   color: white;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+.basket-content {
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+  justify-content: space-between;
+  padding-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.border {
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: solid #eaebeb 1px;
+}
+
+h3 {
+  padding-top: 15px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.price {
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: solid #eaebeb 1px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.delivery {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-quantity {
+  display: flex;
+}
+
+.subtotal-price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.total-price {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
 }
